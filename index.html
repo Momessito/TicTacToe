@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>JOGO DA VELHA</h1>
+        <div class="turn" style="display:flex;">
+            <div class="Turn" >VEZ O</div>
+            <div class="Turn" >VEZ X</div>
+            <button class="btn" id="mecher"></button>
+        </div>
+        <div class="tudo">
+        <div class="quadrado" id="um" onclick="jogo(id)"></div>
+        <div class="quadrado" id="dois" onclick="jogo(id)"></div>
+        <div class="quadrado" id="tres" onclick="jogo(id)"></div>
+        <div class="quadrado" id="quatro" onclick="jogo(id)"></div>
+        <div class="quadrado" id="cinco" onclick="jogo(id)"></div>
+        <div class="quadrado" id="seis" onclick="jogo(id)"></div>
+        <div class="quadrado" id="sete" onclick="jogo(id)"></div>
+        <div class="quadrado" id="oito" onclick="jogo(id)"></div>
+        <div class="quadrado" id="nove" onclick="jogo(id)"></div>
+    </div>
+        <div class="score"></div>
+        <button id="reset" onclick="reset()">Reset</button>
+    </section>
+</body>
+<script src="app.js"></script>
+</html>

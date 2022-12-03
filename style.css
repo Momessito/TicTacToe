@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.quadrado{
+    width: 25%;
+    height: 20vh;
+    margin: 0px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.tudo{
+    width: 70%;
+    display:flex;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: center;align-items: center;
+}
+#um{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#dois{
+    border-bottom: 2px solid black;
+
+
+}
+#tres{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#quatro{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+    
+}
+#seis{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#sete{
+    border-right: 2px solid black;
+}
+#cinco{
+    border-bottom: 2px solid black;
+}
+#nove{
+    border-left: 2px solid black;
+}
+.btn{
+    margin: 0px;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    background-color: rgb(76, 76, 76);
+    border-radius: 3px;
+    border: 2px solid white;
+    transition: 0.2s all;
+}
+.turn div{
+    margin: 2px;
+margin-right: 5px;
+z-index: 1000;
+font-size: 25px;
+cursor: pointer;
+color: white;
+}
+.turn{
+    width: 180px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    margin: 30px;
+    margin-left: 300px;
+}
+.score{
+    margin: 30px;
+    margin-left: 300px;
+}
+#reset{
+    margin-left: 300px;
+}
